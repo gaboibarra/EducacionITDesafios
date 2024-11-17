@@ -2,14 +2,14 @@ pipeline {
     agent any
     parameters {
         string(name: 'LOGIN', description: 'Login único del usuario (nombre.apellido)')
-        string(name: 'FULL_NAME', description: 'Nombre completo del usuario')
-        choice(name: 'DEPARTMENT', choices: ['contabilidad', 'finanzas', 'tecnologia'], description: 'Departamento del usuario')
+        string(name: 'NOMBRE_COMPLETO', description: 'Nombre completo del usuario')
+        choice(name: 'DEPARTMENTO', choices: ['contabilidad', 'finanzas', 'tecnologia'], description: 'Departamento del usuario')
     }
     stages {
         stage('Validar entrada') {
             steps {
                 script {
-                    if (!params.LOGIN || !params.FULL_NAME || !params.DEPARTMENT) {
+                    if (!params.LOGIN || !params.NOMBRE_COMPLETO || !params.DEPARTMENTO) {
                         error "Todos los parámetros son obligatorios."
                     }
                 }
@@ -21,7 +21,7 @@ pipeline {
                     def tempPassword = UUID.randomUUID().toString().substring(0, 8)
                     
                     sh """
-                    sudo useradd -m -c '${params.FULL_NAME}' -s /bin/bash -G ${params.DEPARTMENT} ${params.LOGIN}
+                    sudo useradd -m -c '${params.NOMBRE_COMPLETO}' -s /bin/bash -G ${params.DEPARTMENTO} ${params.LOGIN}
                     echo '${params.LOGIN}:${tempPassword}' | sudo chpasswd
                     sudo passwd --expire ${params.LOGIN}
                     echo "Usuario ${params.LOGIN} creado con contraseña temporal: ${tempPassword}"
