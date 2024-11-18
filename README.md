@@ -1,5 +1,3 @@
-![banner](https://via.placeholder.com/1000x200.png?text=Automatizacion+de+Usuarios+con+Jenkins)
-
 
 # Automatización de Gestión de Usuarios en Linux con Jenkins Desafio 1
 
