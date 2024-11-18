@@ -54,6 +54,61 @@ Completa los campos:
 * **Script Path:** pipelines/create-user.groovy.
 * **Guarda los cambios.**
 
+## 👥 Gestión de Grupos en el Sistema
+
+### ¿Qué son los Grupos en Linux?
+Los grupos son una forma de organizar usuarios en el sistema Linux. Permiten aplicar permisos compartidos y organizar mejor la administración de usuarios.
+
+## Grupos utilizados en este proyecto
+En este proyecto, los siguientes grupos representan los departamentos:
+* contabilidad
+* finanzas
+* tecnologia
+Estos grupos deben existir en el sistema antes de ejecutar los pipelines.
+
+### Creación de Grupos en el Sistema
+Si no existen, los grupos se pueden crear con el siguiente comando:
+
+* sudo groupadd contabilidad
+* sudo groupadd finanzas
+* sudo groupadd tecnologia
+
+### Validación de Grupos
+Para verificar los grupos existentes:
+
+* getent group
+### Ejemplo de salida esperada:
+
+* contabilidad:x:1001:
+* finanzas:x:1002:
+* tecnologia:x:1003:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Ejecucion
 Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
