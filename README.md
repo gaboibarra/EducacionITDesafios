@@ -84,32 +84,6 @@ Para verificar los grupos existentes:
 * finanzas:x:1002:
 * tecnologia:x:1003:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Ejecucion
 Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
@@ -154,7 +128,9 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
 ## 📂 Evidencias
 ### Capturas de Pantalla
-1. PipelineCrearUsuarios:
+### 1. Pipeline Creados: (evidencias/pipe_lines_creados.png)
+
+2. PipelineCrearUsuarios:
 * Ejecución exitosa con parámetros.
 * Validación de la creación del usuario en el sistema.
 
