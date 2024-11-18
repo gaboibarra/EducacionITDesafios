@@ -40,7 +40,4 @@
 
 ### 2. Repositorio de GitHub
 Clona este repositorio en Jenkins:
-
-bash
-Copiar código
-https://github.com/gaboibarra/EducacionITDesafios.git
+***https://github.com/gaboibarra/EducacionITDesafios.git***
