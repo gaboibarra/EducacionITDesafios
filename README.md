@@ -64,6 +64,7 @@ En este proyecto, los siguientes grupos representan los departamentos:
 * contabilidad
 * finanzas
 * tecnologia
+  
 Estos grupos deben existir en el sistema antes de ejecutar los pipelines.
 
 ### Creación de Grupos en el Sistema
