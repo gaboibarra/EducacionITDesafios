@@ -134,3 +134,8 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 ### Mejoras Futuras
 * Agregar notificaciones automáticas al administrador.
 * Incluir un pipeline para listar usuarios existentes en el sistema.
+
+🏆 Autores
+Gabriel Ibarra
+
+  
