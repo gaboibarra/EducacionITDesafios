@@ -72,5 +72,27 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * Se asigna al grupo tecnologia.
 * Se genera una contraseña temporal.
 
+### 2. Pipeline de Eliminación de Usuarios
+***Pasos para Configurar***
+* **En Jenkins Crear un nuevo pipeline:**
+* **Nombre:** PipelineEliminarUsuarios.
+* Configura el pipeline seleccionando: **Pipeline script from SCM.**
+Completa los campos:
+* **SCM:** Git.
+* **Repository URL:** https://github.com/gaboibarra/EducacionITDesafios.git.
+* **Script Path:** pipelines/delete-user.groovy.
+* **Guarda los cambios.**
 
+### Ejecucion
+Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
+
+* **LOGIN:** Nombre único del usuario (formato nombre.apellido).
+
+| Parámetro       | Descripción                 | Ejemplo        |
+|-----------------|-----------------------------|----------------|
+| `LOGIN`         | Nombre único del usuario    | juan.perez     |
+
+### Resultado esperado
+* Se elimina el usuario juan.perez del sistema
+* Se elimina el directorio personal del usuario
 
