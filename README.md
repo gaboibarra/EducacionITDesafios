@@ -170,6 +170,15 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * Agregar notificaciones automáticas al administrador.
 * Incluir un pipeline para listar usuarios existentes en el sistema.
 
+## 🛠️ **Tecnologías Usadas**
+
+- ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white) Jenkins  
+- ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) GitHub  
+- ![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=for-the-badge&logo=apachegroovy&logoColor=white) Groovy  
+- ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) Linux  
+- ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) Bash
+
+
 🏆 Autores
 * [Gabriel Ibarra](https://github.com/gaboibarra)
 
