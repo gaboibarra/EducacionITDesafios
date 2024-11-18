@@ -39,57 +39,57 @@
 ***git para clonar el repositorio.***
 
 ### 2. Repositorio de GitHub
-Clona este repositorio en Jenkins:
+*Clona este repositorio en Jenkins:*
 ***https://github.com/gaboibarra/EducacionITDesafios.git***
 
 ## ⚙️ Configuración del Proyecto en Jenkins
 ### 1. Pipeline de Creación de Usuarios
 ***Pasos para Configurar***
 * **En Jenkins Crear un nuevo pipeline:**
-* **Nombre:** PipelineCrearUsuarios.
-* Configura el pipeline seleccionando: **Pipeline script from SCM.**
+* **Nombre:** *PipelineCrearUsuarios.*
+* Configura el pipeline seleccionando: ***Pipeline script from SCM.***
 Completa los campos:
-* **SCM:** Git.
-* **Repository URL:** https://github.com/gaboibarra/EducacionITDesafios.git.
-* **Script Path:** pipelines/create-user.groovy.
+* **SCM:** *Git.*
+* **Repository URL:** *https://github.com/gaboibarra/EducacionITDesafios.git.*
+* **Script Path:** *pipelines/create-user.groovy.*
 * **Guarda los cambios.**
 
 ## 👥 Gestión de Grupos en el Sistema
 
 ### ¿Qué son los Grupos en Linux?
-Los grupos son una forma de organizar usuarios en el sistema Linux. Permiten aplicar permisos compartidos y organizar mejor la administración de usuarios.
+*Los grupos son una forma de organizar usuarios en el sistema Linux. Permiten aplicar permisos compartidos y organizar mejor la administración de usuarios.*
 
 ## Grupos utilizados en este proyecto
-En este proyecto, los siguientes grupos representan los departamentos:
-* contabilidad
-* finanzas
-* tecnologia
+*En este proyecto, los siguientes grupos representan los departamentos:*
+* *contabilidad*
+* *finanzas*
+* *tecnologia*
   
-Estos grupos deben existir en el sistema antes de ejecutar los pipelines.
+*Estos grupos deben existir en el sistema antes de ejecutar los pipelines.*
 
 ### Creación de Grupos en el Sistema
-Si no existen, los grupos se pueden crear con el siguiente comando:
+*Si no existen, los grupos se pueden crear con el siguiente comando:*
 
-* sudo groupadd contabilidad
-* sudo groupadd finanzas
-* sudo groupadd tecnologia
+* *sudo groupadd contabilidad*
+* *sudo groupadd finanzas*
+* *sudo groupadd tecnologia*
 
 ### Validación de Grupos
-Para verificar los grupos existentes:
+*Para verificar los grupos existentes:*
 
-* getent group
+* *getent group*
 ### Ejemplo de salida esperada:
 
-* contabilidad:x:1001:
-* finanzas:x:1002:
-* tecnologia:x:1003:
+* *contabilidad:x:1001:*
+* *finanzas:x:1002:*
+* *tecnologia:x:1003:*
 
 ## Ejecucion
-Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
+*Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:*
 
-* **LOGIN:** Nombre único del usuario (formato nombre.apellido).
-* **NOMBRE_COMPLETO:** Nombre completo del usuario.
-* **DEPARTAMENTO:** Departamento del usuario (opciones: contabilidad, finanzas, tecnologia).
+* **LOGIN:** *Nombre único del usuario (formato nombre.apellido).*
+* **NOMBRE_COMPLETO:** *Nombre completo del usuario.*
+* **DEPARTAMENTO:** *Departamento del usuario (opciones: contabilidad, finanzas, tecnologia).*
 
 | Parámetro       | Descripción                 | Ejemplo        |
 |-----------------|-----------------------------|----------------|
@@ -98,23 +98,23 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 | `DEPARTAMENTO`  | Grupo al que pertenece      | tecnologia     |
 
 ### Resultado esperado
-* Se crea el usuario juan.perez con un directorio personal /home/juan.perez.
-* Se asigna al grupo tecnologia.
-* Se genera una contraseña temporal.
+* *Se crea el usuario juan.perez con un directorio personal /home/juan.perez.*
+* *Se asigna al grupo tecnologia.*
+* *Se genera una contraseña temporal.*
 
 ### 2. Pipeline de Eliminación de Usuarios
 ***Pasos para Configurar***
 * **En Jenkins Crear un nuevo pipeline:**
-* **Nombre:** PipelineEliminarUsuarios.
-* Configura el pipeline seleccionando: **Pipeline script from SCM.**
+* **Nombre:** *PipelineEliminarUsuarios.*
+* Configura el pipeline seleccionando: ***Pipeline script from SCM.***
 Completa los campos:
-* **SCM:** Git.
-* **Repository URL:** https://github.com/gaboibarra/EducacionITDesafios.git.
-* **Script Path:** pipelines/delete-user.groovy.
+* **SCM:** *Git.*
+* **Repository URL:** *https://github.com/gaboibarra/EducacionITDesafios.git.*
+* **Script Path:** *pipelines/delete-user.groovy.*
 * **Guarda los cambios.**
 
 ## Ejecucion
-Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
+*Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:*
 
 * **LOGIN:** Nombre único del usuario (formato nombre.apellido).
 
@@ -123,8 +123,8 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 | `LOGIN`         | Nombre único del usuario    | juan.perez     |
 
 ### Resultado esperado
-* Se elimina el usuario juan.perez del sistema
-* Se elimina el directorio personal del usuario
+* *Se elimina el usuario juan.perez del sistema*
+* *Se elimina el directorio personal del usuario*
 
 ## 📂 Evidencias
 ### **PipelineCrearUsuarios**
@@ -163,19 +163,19 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
 ## 💡 Notas Finales
 ### Limitaciones
-* Actualmente, no incluye validaciones avanzadas para evitar duplicados en nombres de usuarios.
-* El correo electrónico no está integrado en esta versión.
+* *Actualmente, no incluye validaciones avanzadas para evitar duplicados en nombres de usuarios.*
+* *El correo electrónico no está integrado en esta versión.*
   
 ### Mejoras Futuras
-* Agregar notificaciones automáticas al administrador.
-* Incluir un pipeline para listar usuarios existentes en el sistema.
+* *Agregar notificaciones automáticas al administrador.*
+* *Incluir un pipeline para listar usuarios existentes en el sistema.*
 
 ## 🛠️ **Tecnologías Usadas**
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white)  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  ![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=for-the-badge&logo=apachegroovy&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 
-🏆 Autores
+🏆 *Autores*
 * [Gabriel Ibarra](https://github.com/gaboibarra)
 
   
