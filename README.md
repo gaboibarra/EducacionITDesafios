@@ -97,7 +97,7 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * Se elimina el directorio personal del usuario
 
 ## 📂 Evidencias
-###Capturas de Pantalla
+### Capturas de Pantalla
 1. PipelineCrearUsuarios:
 * Ejecución exitosa con parámetros.
 * Validación de la creación del usuario en el sistema.
@@ -105,7 +105,7 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 2.PipelineEliminarUsuarios:
 * Ejecución exitosa con eliminación del usuario.
   
-###Logs de Salida
+### Logs de Salida
 * Se han guardado las salidas completas de los pipelines en la carpeta evidencias/:
   * salida_pipeline_crear_usuario.txt
   * salida_pipeline_eliminar_usuario.txt
