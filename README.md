@@ -41,3 +41,15 @@
 ### 2. Repositorio de GitHub
 Clona este repositorio en Jenkins:
 ***https://github.com/gaboibarra/EducacionITDesafios.git***
+
+⚙️ Configuración del Proyecto en Jenkins
+1. Pipeline de Creación de Usuarios
+Pasos para Configurar
+En Jenkins, crea un nuevo pipeline:
+Nombre: PipelineCrearUsuarios.
+Configura el pipeline seleccionando Pipeline script from SCM.
+Completa los campos:
+SCM: Git.
+Repository URL: https://github.com/gaboibarra/EducacionITDesafios.git.
+Script Path: pipelines/create-user.groovy.
+Guarda los cambios.
