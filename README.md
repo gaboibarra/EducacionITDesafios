@@ -129,13 +129,13 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 ## 📂 Evidencias
 ### **PipelineCrearUsuarios**
 1. **Ejecución Exitosa con Parámetros**
-  * ![Ejecución Crear Usuario](evidencias/ejecucion_crear_usuario.png)
+   ![Ejecución Crear Usuario](evidencias/ejecucion_crear_usuario.png)
 
 2. **Validación de Usuario Creado en el Sistema**
   * ![Usuario Creado](evidencias/usuario_creado.png)
 
 3. **Pipeline Configurado**
-  * ![Pipeline Crear Usuario Configurado](evidencias/pipe_line_crear_usuario.png)
+   ![Pipeline Crear Usuario Configurado](evidencias/pipe_line_crear_usuario.png)
 
 ---
 
