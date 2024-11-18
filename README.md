@@ -136,6 +136,6 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * Incluir un pipeline para listar usuarios existentes en el sistema.
 
 🏆 Autores
-Gabriel Ibarra
+* [Gabriel Ibarra](https://github.com/gaboibarra)
 
   
