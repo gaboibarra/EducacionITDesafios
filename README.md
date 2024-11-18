@@ -53,3 +53,15 @@ Completa los campos:
 * **Repository URL:** https://github.com/gaboibarra/EducacionITDesafios.git.
 * **Script Path:** pipelines/create-user.groovy.
 * **Guarda los cambios.**
+
+### Ejecucion
+Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
+
+**LOGIN:** Nombre único del usuario (formato nombre.apellido).
+**NOMBRE_COMPLETO:** Nombre completo del usuario.
+**DEPARTAMENTO:** Departamento del usuario (opciones: contabilidad, finanzas, tecnologia).
+
+
+
+
+
