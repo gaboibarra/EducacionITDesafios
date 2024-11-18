@@ -18,7 +18,7 @@ Este proyecto implementa pipelines en Jenkins para automatizar la gestión de us
 Simplificar la administración de usuarios y minimizar errores operativos mediante una herramienta confiable y reproducible.
 
 ✨ Características
-✔️ Gestión automatizada de usuarios (creación y eliminación).
-✔️ Personalización mediante parámetros como login, nombre completo y departamento.
-✔️ Compatible con cualquier sistema Linux.
-✔️ Fácil integración con Jenkins.
+*✔️ Gestión automatizada de usuarios (creación y eliminación).
+*✔️ Personalización mediante parámetros como login, nombre completo y departamento.
+*✔️ Compatible con cualquier sistema Linux.
+*✔️ Fácil integración con Jenkins.
