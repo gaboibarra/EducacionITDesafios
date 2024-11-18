@@ -45,7 +45,7 @@ Clona este repositorio en Jenkins:
 ## ⚙️ Configuración del Proyecto en Jenkins
 ### 1. Pipeline de Creación de Usuarios
 ***Pasos para Configurar en Jenkins***
-**Crear un nuevo pipeline:**
+* **Crear un nuevo pipeline:**
 Nombre: PipelineCrearUsuarios.
 Configura el pipeline seleccionando Pipeline script from SCM.
 Completa los campos:
