@@ -43,7 +43,7 @@ Clona este repositorio en Jenkins:
 ***https://github.com/gaboibarra/EducacionITDesafios.git***
 
 ## ⚙️ Configuración del Proyecto en Jenkins
-1. Pipeline de Creación de Usuarios
+### 1. Pipeline de Creación de Usuarios
 Pasos para Configurar
 En Jenkins, crea un nuevo pipeline:
 Nombre: PipelineCrearUsuarios.
