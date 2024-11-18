@@ -57,9 +57,9 @@ Completa los campos:
 ### Ejecucion
 Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
-**LOGIN:** Nombre único del usuario (formato nombre.apellido).
-**NOMBRE_COMPLETO:** Nombre completo del usuario.
-**DEPARTAMENTO:** Departamento del usuario (opciones: contabilidad, finanzas, tecnologia).
+* **LOGIN:** Nombre único del usuario (formato nombre.apellido).
+* **NOMBRE_COMPLETO:** Nombre completo del usuario.
+* **DEPARTAMENTO:** Departamento del usuario (opciones: contabilidad, finanzas, tecnologia).
 
 
 
