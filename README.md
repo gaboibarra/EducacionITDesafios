@@ -61,6 +61,12 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * **NOMBRE_COMPLETO:** Nombre completo del usuario.
 * **DEPARTAMENTO:** Departamento del usuario (opciones: contabilidad, finanzas, tecnologia).
 
+| Parámetro       | Descripción                 | Ejemplo        |
+|-----------------|-----------------------------|----------------|
+| `LOGIN`         | Nombre único del usuario    | juan.perez     |
+| `NOMBRE_COMPLETO` | Nombre completo del usuario | Juan Pérez     |
+| `DEPARTAMENTO`  | Grupo al que pertenece      | tecnologia     |
+
 
 
 
