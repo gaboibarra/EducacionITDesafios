@@ -28,9 +28,9 @@
 * **Sistema Operativo:**  ***Linux (Ubuntu, Debian, etc.).***
 * **Permisos:**  ***Acceso como usuario sudo para ejecutar comandos administrativos.***
 
-**Jenkins:**
+* **Jenkins:**
 ***Instalado y configurado en el servidor.***
-**Plugins requeridos:**
+* **Plugins requeridos:**
 ***Pipeline***
 ***Git Plugin***
 
