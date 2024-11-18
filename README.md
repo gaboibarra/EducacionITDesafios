@@ -1,7 +1,7 @@
 
 # 🚀 **Automatización de Gestión de Usuarios en Linux con Jenkins**
 
-# 📋 Descripción del Proyecto
+## 📋 Descripción del Proyecto
 
 *Este proyecto implementa pipelines en Jenkins para automatizar la gestión de usuarios en sistemas Linux. Proporciona dos funcionalidades principales:*
 
@@ -42,7 +42,7 @@
 Clona este repositorio en Jenkins:
 ***https://github.com/gaboibarra/EducacionITDesafios.git***
 
-⚙️ Configuración del Proyecto en Jenkins
+## ⚙️ Configuración del Proyecto en Jenkins
 1. Pipeline de Creación de Usuarios
 Pasos para Configurar
 En Jenkins, crea un nuevo pipeline:
