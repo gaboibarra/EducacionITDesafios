@@ -110,7 +110,7 @@ Para verificar los grupos existentes:
 
 
 
-### Ejecucion
+## Ejecucion
 Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
 * **LOGIN:** Nombre único del usuario (formato nombre.apellido).
