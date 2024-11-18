@@ -96,3 +96,41 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * Se elimina el usuario juan.perez del sistema
 * Se elimina el directorio personal del usuario
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 💡 Notas Finales
+### Limitaciones
+* Actualmente, no incluye validaciones avanzadas para evitar duplicados en nombres de usuarios.
+* El correo electrónico no está integrado en esta versión.
+  
+### Mejoras Futuras
+* Agregar notificaciones automáticas al administrador.
+* Incluir un pipeline para listar usuarios existentes en el sistema.
