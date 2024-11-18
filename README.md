@@ -34,7 +34,7 @@
 ***Pipeline***
 ***Git Plugin***
 
-**Paquetes necesarios en el servidor:**
+* **Paquetes necesarios en el servidor:**
 ***useradd (instalado por defecto).***
 ***git para clonar el repositorio.***
 
