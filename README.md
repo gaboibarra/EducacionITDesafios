@@ -25,8 +25,8 @@
 
 ## 🛠️ Requisitos Previos
 ### 1. Requisitos del Servidor
-**Sistema Operativo:**  ***Linux (Ubuntu, Debian, etc.).***
-**Permisos:**  ***Acceso como usuario sudo para ejecutar comandos administrativos.***
+* **Sistema Operativo:**  ***Linux (Ubuntu, Debian, etc.).***
+* **Permisos:**  ***Acceso como usuario sudo para ejecutar comandos administrativos.***
 
 **Jenkins:**
 ***Instalado y configurado en el servidor.***
