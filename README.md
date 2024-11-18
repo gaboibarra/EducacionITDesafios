@@ -139,7 +139,7 @@ Completa los campos:
 * **Script Path:** pipelines/delete-user.groovy.
 * **Guarda los cambios.**
 
-### Ejecucion
+## Ejecucion
 Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
 * **LOGIN:** Nombre único del usuario (formato nombre.apellido).
