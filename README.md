@@ -102,7 +102,7 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * Ejecución exitosa con parámetros.
 * Validación de la creación del usuario en el sistema.
 
-2.PipelineEliminarUsuarios:
+2. PipelineEliminarUsuarios:
 * Ejecución exitosa con eliminación del usuario.
   
 ### Logs de Salida
