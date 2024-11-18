@@ -1,0 +1,57 @@
+Lanzada por el usuario gabarra
+Obtained pipelines/delete-user.groovy from git https://github.com/gaboibarra/EducacionITDesafios.git
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins  in /var/lib/jenkins/workspace/PipelineEliminarUsuarios
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-token
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/PipelineEliminarUsuarios/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gaboibarra/EducacionITDesafios.git # timeout=10
+Fetching upstream changes from https://github.com/gaboibarra/EducacionITDesafios.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/gaboibarra/EducacionITDesafios.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 308fa3684a96adc827ba38a1223933f1ca4918df (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 308fa3684a96adc827ba38a1223933f1ca4918df # timeout=10
+Commit message: "Se agrego la carpeta paralas evidencias"
+ > git rev-list --no-walk 7b106c01e1474feecb6e176072a39520582e6de4 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Validar entrada)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Eliminar usuario)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] sh
++ sudo userdel -r juan.perez
+userdel: juan.perez mail spool (/var/mail/juan.perez) not found
++ echo Usuario juan.perez y su directorio personal han sido eliminados.
+Usuario juan.perez y su directorio personal han sido eliminados.
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS

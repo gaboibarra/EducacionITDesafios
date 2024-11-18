@@ -1,0 +1,82 @@
+Lanzada por el usuario gabarra
+Obtained pipelines/create-user.groovy from git https://github.com/gaboibarra/EducacionITDesafios.git
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins  in /var/lib/jenkins/workspace/PipelineCrearUsuarios
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github-token
+Cloning the remote Git repository
+Cloning repository https://github.com/gaboibarra/EducacionITDesafios.git
+ > git init /var/lib/jenkins/workspace/PipelineCrearUsuarios # timeout=10
+Fetching upstream changes from https://github.com/gaboibarra/EducacionITDesafios.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/gaboibarra/EducacionITDesafios.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gaboibarra/EducacionITDesafios.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 308fa3684a96adc827ba38a1223933f1ca4918df (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 308fa3684a96adc827ba38a1223933f1ca4918df # timeout=10
+Commit message: "Se agrego la carpeta paralas evidencias"
+ > git rev-list --no-walk 7b106c01e1474feecb6e176072a39520582e6de4 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Validar entrada)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Crear usuario)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] sh
++ sudo useradd -m -c Juan Perez -s /bin/bash -G tecnologia juan.perez
++ echo juan.perez:95bd9205
++ sudo chpasswd
++ sudo passwd --expire juan.perez
+passwd: contraseña cambiada.
++ echo Usuario juan.perez creado con contraseña temporal: 95bd9205
+Usuario juan.perez creado con contraseña temporal: 95bd9205
+[Pipeline] writeFile
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Mostrar contraseña)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] echo
+La contraseña temporal para el usuario juan.perez es:
+[Pipeline] sh
++ cat temp_password.txt
+95bd9205
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Declarative: Post Actions)
+[Pipeline] deleteDir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
