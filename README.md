@@ -128,7 +128,7 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 
 ## 📂 Evidencias
 ### Capturas de Pantalla
-### 1. Pipeline Creados: (evidencias/pipe_lines_creados.png)
+### 1. Pipeline Creados:
 
 2. PipelineCrearUsuarios:
 * Ejecución exitosa con parámetros.
