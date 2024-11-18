@@ -67,7 +67,10 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 | `NOMBRE_COMPLETO` | Nombre completo del usuario | Juan Pérez     |
 | `DEPARTAMENTO`  | Grupo al que pertenece      | tecnologia     |
 
-
+### Resultado esperado
+* Se crea el usuario juan.perez con un directorio personal /home/juan.perez.
+* Se asigna al grupo tecnologia.
+* Se genera una contraseña temporal.
 
 
 
