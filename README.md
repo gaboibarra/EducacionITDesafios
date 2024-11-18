@@ -3,7 +3,7 @@
 
 # 📋 Descripción del Proyecto
 
-Este proyecto implementa pipelines en Jenkins para automatizar la gestión de usuarios en sistemas Linux. Proporciona dos funcionalidades principales:
+*Este proyecto implementa pipelines en Jenkins para automatizar la gestión de usuarios en sistemas Linux. Proporciona dos funcionalidades principales:*
 
 ## **Creación de usuarios:**
 
@@ -35,3 +35,10 @@ Git Plugin
 Paquetes necesarios en el servidor:
 useradd (instalado por defecto).
 git para clonar el repositorio.
+
+2. Repositorio de GitHub
+Clona este repositorio en Jenkins:
+
+bash
+Copiar código
+https://github.com/gaboibarra/EducacionITDesafios.git
