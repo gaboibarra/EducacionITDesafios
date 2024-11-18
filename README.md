@@ -24,7 +24,7 @@
 * ✔️ *Fácil integración con Jenkins.*
 
 ## 🛠️ Requisitos Previos
-1. Requisitos del Servidor
+### 1. Requisitos del Servidor
 Sistema Operativo: Linux (Ubuntu, Debian, etc.).
 Permisos: Acceso como usuario sudo para ejecutar comandos administrativos.
 Jenkins:
@@ -36,7 +36,7 @@ Paquetes necesarios en el servidor:
 useradd (instalado por defecto).
 git para clonar el repositorio.
 
-2. Repositorio de GitHub
+### 2. Repositorio de GitHub
 Clona este repositorio en Jenkins:
 
 bash
