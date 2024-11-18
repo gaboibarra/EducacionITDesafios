@@ -7,15 +7,15 @@
 
 ## **Creación de usuarios:**
 
-- Automatiza la creación de usuarios con parámetros personalizados.
-- Asigna un grupo, un shell y genera una contraseña temporal.
+- *Automatiza la creación de usuarios con parámetros personalizados.*
+- *Asigna un grupo, un shell y genera una contraseña temporal.*
 
 ## **Eliminación de usuarios:**
 
-- Permite eliminar usuarios existentes junto con sus directorios personales y grupos.
+- *Permite eliminar usuarios existentes junto con sus directorios personales y grupos.*
 
 ## **Objetivo**
-Simplificar la administración de usuarios y minimizar errores operativos mediante una herramienta confiable y reproducible.
+*Simplificar la administración de usuarios y minimizar errores operativos mediante una herramienta confiable y reproducible.*
 
 ## ✨ **Características**
 * ✔️ Gestión automatizada de usuarios (creación y eliminación).
