@@ -127,20 +127,39 @@ Al ejecutar el pipeline, se te pedirá ingresar los siguientes parámetros:
 * Se elimina el directorio personal del usuario
 
 ## 📂 Evidencias
-### Capturas de Pantalla
-### 1. Pipeline Creados:
+### **PipelineCrearUsuarios**
+1. **Ejecución Exitosa con Parámetros**
+   ![Ejecución Crear Usuario](evidencias/ejecucion_crear_usuario.png)
 
-2. PipelineCrearUsuarios:
-* Ejecución exitosa con parámetros.
-* Validación de la creación del usuario en el sistema.
+2. **Validación de Usuario Creado en el Sistema**
+   ![Usuario Creado](evidencias/usuario_creado.png)
 
-2. PipelineEliminarUsuarios:
-* Ejecución exitosa con eliminación del usuario.
-  
-### Logs de Salida
-* Se han guardado las salidas completas de los pipelines en la carpeta evidencias/:
-  * salida_pipeline_crear_usuario.txt
-  * salida_pipeline_eliminar_usuario.txt
+3. **Pipeline Configurado**
+   ![Pipeline Crear Usuario Configurado](evidencias/pipe_line_crear_usuario.png)
+
+---
+
+### **PipelineEliminarUsuarios**
+1. **Ejecución Exitosa con Parámetros**
+   ![Ejecución Eliminar Usuario](evidencias/ejecucion_eliminar_usuario.png)
+
+2. **Validación de Usuario Eliminado en el Sistema**
+   ![Usuario Eliminado](evidencias/usuario_eliminado.png)
+
+3. **Pipeline Configurado**
+   ![Pipeline Eliminar Usuario Configurado](evidencias/pipeline_eliminar_usuario.png)
+
+---
+
+### **Capturas de Configuración General**
+1. **Todos los Pipelines Configurados**
+   ![Pipelines Configurados](evidencias/pipe_lines_creados.png)
+
+---
+
+### **Logs de Salida**
+- [Salida del Pipeline Crear Usuario](evidencias/salida_pipeline_crear_usuario.txt.txt)  
+- [Salida del Pipeline Eliminar Usuario](evidencias/salida_pipeline_eliminar_usuario.txt.txt)
 
 ## 💡 Notas Finales
 ### Limitaciones
