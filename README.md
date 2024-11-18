@@ -52,4 +52,4 @@ Completa los campos:
 * **SCM:** Git.
 * **Repository URL:** https://github.com/gaboibarra/EducacionITDesafios.git.
 * **Script Path:** pipelines/create-user.groovy.
-***Guarda los cambios.***
+* **Guarda los cambios.**
